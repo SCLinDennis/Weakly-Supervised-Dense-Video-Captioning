@@ -24,9 +24,9 @@ This repo try to implement ***[Weakly Supervised Dense Video Captioning](https:/
 9. videos/: Where to put the [***MSR-VTT***](http://ms-multimedia-challenge.com/dataset) videos.
 10. Weight_Resnet50/: Where to put weight save from ```lexical_Res.py```.
 11. Weight_Resnet50_vasbag/: Where to put weight save from ```Res_video_bag.py```
-12. TRY3/```model_seq2seq.py```: Language model using S2VT.(train)
+12. TRY3/```s2vt_train.py```: Language model using S2VT.(train)
 13. TRY3/```s2vt.py```: S2VT model graph.
-14. TRY3/```s2vt_predict_v2.py```: Language model using S2VT.(inference)
+14. TRY3/```s2vt_inference.py```: Language model using S2VT.(inference)
 
 ## Reference
 - [Weakly Supervised Dense Video Captioning](https://arxiv.org/abs/1704.01502)
